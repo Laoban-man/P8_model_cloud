@@ -1,0 +1,15 @@
+[
+    {
+    "Classification":"jupyter-sparkmagic-conf",
+    "Properties": {
+      "kernel_python_credentials" : "{\"username\":\"nicolas\",\"base64_password\":\"rx\",\"url\":\"http:\/\/localhost:8998\",\"auth\":\"None\"}"
+      }
+    },
+    {
+        "Classification": "jupyter-s3-conf",
+        "Properties": {
+            "s3.persistence.enabled": "true",
+            "s3.persistence.bucket": "MyJupyterBackups"
+        }
+    }
+]
